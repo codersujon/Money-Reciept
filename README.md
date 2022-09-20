@@ -1,5 +1,5 @@
 
 # PencilBox Money-Reciept
-## Site Deploy to Netlify
+## Site Deploy
 
 - [Live Demo](https://pb-money-reciept.netlify.app/)
