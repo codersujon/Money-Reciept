@@ -1,0 +1,221 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: PencilBox  Money Reciept
+    Template URI: https://pb-psd-1.netlify.app/
+    Description: Money Reciept
+    Author: CoderSujon
+    Author URI: www.codersujon.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+-----------------------------------------------------------------------------------*/
+/*----------------------------------------*/
+/*  01. Theme default CSS
+/*----------------------------------------*/
+/* 1. Theme default css */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.img,
+img {
+  max-width: 100%;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  margin-top: 0px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-transform: normal;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  color: #000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+/*--
+    - Margin & Padding
+-----------------------------------------*/
+/*-- Margin Top --*/
+.mt-5 {
+  margin-top: 5px;
+}
+
+/*-- Margin Bottom --*/
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+/*-- Margin Left --*/
+.ml-5 {
+  margin-left: 5px;
+}
+
+/*-- Margin Right --*/
+.mr-5 {
+  margin-right: 5px;
+}
+
+/*-- Padding Top --*/
+.pt-5 {
+  padding-top: 5px;
+}
+
+/*-- Padding Bottom --*/
+.pb-5 {
+  padding-bottom: 5px;
+}
+
+/*-- Padding Left --*/
+.pl-5 {
+  padding-left: 5px;
+}
+
+/*-- Padding Right --*/
+.pr-5 {
+  padding-right: 5px;
+}
+
+/* Inher Start*/
+.MoneyReciept {
+  background-color: #e9ecef;
+  position: relative;
+  z-index: -2;
+}
+
+.moneyRe__container {
+  width: 820px;
+  height: 540px;
+  margin: 0 auto;
+  padding: 5px;
+  position: relative;
+  border: 10px solid black;
+  border-image-source: url("../img/border-image-1.png");
+  border-image-slice: 27;
+  border-image-repeat: round;
+}
+.moneyRe__watermark {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  opacity: 20%;
+}
+.moneyRe__watermark img {
+  max-width: 35%;
+}
+.moneyRe__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.moneyRe__top__logo {
+  max-width: 8%;
+}
+.moneyRe__top__content {
+  text-align: center;
+}
+.moneyRe__top__content h2 {
+  font-size: 20px;
+  color: #b90801;
+}
+.moneyRe__top__content h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.moneyRe__top__content span {
+  font-size: 17px;
+  background-color: #33ff33;
+  color: #b90801;
+  padding: 6px;
+  border-radius: 5px;
+}
+.moneyRe__main__content h4 {
+  font-size: 14px;
+  background-color: #33ff33;
+  padding: 1px;
+}
+.moneyRe__main__content .line {
+  border-bottom: 2px solid #e5e5e5;
+  margin: 10px 0;
+}
+.moneyRe__main__content .address__info {
+  width: 100%;
+  font-size: 15px;
+}
+.moneyRe__main__content .table1 {
+  width: 100%;
+  border: 2px solid #e5e5e5 !important;
+  border-collapse: collapse;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.moneyRe__main__content .table1 th,
+.moneyRe__main__content .table1 td {
+  border: 2px solid #000 !important;
+  text-align: center;
+}
+.moneyRe__main__content .table1,
+.moneyRe__main__content th,
+.moneyRe__main__content td {
+  padding: 4px;
+  text-align: left;
+}
+
+/*# sourceMappingURL=main.css.map */

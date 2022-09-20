@@ -1,0 +1,128 @@
+/*----------------------------------------*/
+/*  01. Theme default CSS
+/*----------------------------------------*/
+
+/* 1. Theme default css */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 400;
+    font-style: normal;
+    color: $body-text-color;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+.img,
+img {
+    max-width: 100%;
+    @include transition(.3s);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $heading-color;
+    margin-top: 0px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: normal;
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    color: $body-text-color;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+/*--
+    - Margin & Padding
+-----------------------------------------*/
+/*-- Margin Top --*/
+@for $i from 1 through 1 {
+    .mt-#{5 * $i} {
+        margin-top: 5px * $i;
+    }
+}
+
+/*-- Margin Bottom --*/
+@for $i from 1 through 1 {
+    .mb-#{5 * $i} {
+        margin-bottom: 5px *$i;
+    }
+}
+
+/*-- Margin Left --*/
+@for $i from 1 through 1 {
+    .ml-#{5 * $i} {
+        margin-left: 5px * $i;
+    }
+}
+
+/*-- Margin Right --*/
+@for $i from 1 through 1 {
+    .mr-#{5 * $i} {
+        margin-right: 5px *$i;
+    }
+}
+
+/*-- Padding Top --*/
+@for $i from 1 through 1 {
+    .pt-#{5 * $i} {
+        padding-top: 5px *$i;
+    }
+}
+
+/*-- Padding Bottom --*/
+@for $i from 1 through 1 {
+    .pb-#{5 * $i} {
+        padding-bottom: 5px *$i;
+    }
+}
+
+/*-- Padding Left --*/
+@for $i from 1 through 1 {
+    .pl-#{5 * $i} {
+        padding-left: 5px *$i;
+    }
+}
+
+/*-- Padding Right --*/
+@for $i from 1 through 1 {
+    .pr-#{5 * $i} {
+        padding-right: 5px *$i;
+    }
+}
+
+// others common css here :)
